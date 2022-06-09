@@ -1,0 +1,25 @@
+.container{
+    border:10px solid #f0e5ee ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.desc{
+    width: fit-content;
+    font-weight: normal;
+}
+.info{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.img{
+    transition: 0.8s all;
+    border-radius: 50%;
+}
+
+.img:hover{
+    transform: scale(1.5);
+    border-radius:0;
+}
